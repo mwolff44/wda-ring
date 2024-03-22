@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d681546-50c2-491d-b4bd-273117a848ab/deploy-status)](https://app.netlify.com/sites/wazo-wda-ring/deploys)
+
 # wda-ring
 
 Plugin for WDA to permit the user to change their ringtone for incoming call.
