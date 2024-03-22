@@ -1,4 +1,6 @@
-import { App } from 'https://cdn.jsdelivr.net/npm/@wazo/euc-plugins-sdk@0.0.22/lib/esm/app.js';
+import {
+  App
+} from '@wazo/euc-plugins-sdk';
 
 
 let url;

@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/public"
+  to = "https://wazo-wda-ring.netlify.app/public/"
+  status = 200
+  force = true
+  headers = {X-From = "app.wazo.io"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

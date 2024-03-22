@@ -1,10 +1,30 @@
 {
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@webpack-cli/generators": "^3.0.7",
+    "css-loader": "^6.8.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "webpack-auto-inject-version-next": "^1.2.4"
+  },
+  "version": "1.0.0",
+  "description": "Wazo Plugin WDA ring FMW",
+  "name": "wazo-wda-ring-fmw",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "dev": "webpack-dev-server --config webpack.config.js --mode=development",
+    "dev:opera": "webpack-dev-server --config opera.config.js --mode=development"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "@wazo/euc-plugins-sdk": "^0.0.22",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "i18next": "^23.10.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack-dev-server": "^4.15.1"
   }
 }
